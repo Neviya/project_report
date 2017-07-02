@@ -1,6 +1,6 @@
 %DO NOT MESS AROUND WITH THE CODE ON THIS PAGE UNLESS YOU %REALLY KNOW WHAT YOU ARE DOING
 \chapter{Study of Classification Algorithms} \label{Study of Classification Algorithms}
-We would briefly like to discuss the classification algorithms we have used in our study
+\noindent Classification is a branch of supervised learning where the problem is to identify which set of categories a new observation belongs on the basis of a set of training data which contains observations whose category membership is known. We would briefly like to discuss the classification algorithms we have used in our study
 
 
 \section{ Support Vector Machine (SVM)} \label{ Support Vector Machine (SVM)}
@@ -9,7 +9,7 @@ We would briefly like to discuss the classification algorithms we have used in o
 
 \begin{figure}[H]
 \centering
-{\includegraphics[scale=0.65]{ktr.png}}
+{\includegraphics[scale=0.74]{ktr.png}}
 \caption{Kernel trick representation}
 \end{figure}
 
@@ -21,7 +21,7 @@ We would briefly like to discuss the classification algorithms we have used in o
 \noindent Despite this it doesn’t perform well when we have large data set because the required training time is higher. It also doesn’t perform very well, when the data set has more noise i.e. target classes are overlapping and SVM doesn’t directly provide probability estimates, these are calculated using an expensive five-fold cross-validation.
 
 
-
+\newpage
 
 \section{k-Nearest Neighbors algorithm (k-NN)} \label{k-Nearest Neighbors algorithm (k-NN)}
 \noindent The k-nearest neighbors algorithm (k-NN) is a non-parametric method used for classification and regression. The closest neighbor (NN) rule distinguishes the classification of unknown data point on the basis of its closest neighbor whose class is already known. The value ‘k’ indicates how many nearest neighbors are to be considered to characterize class of a sample data point. It makes utilization of the more than one closest neighbor to determine the class in which the given data point belongs to and consequently it is called as KNN. If k = 1, then the object is simply assigned to the class of that single nearest neighbor.
@@ -29,7 +29,7 @@ We would briefly like to discuss the classification algorithms we have used in o
 
 \begin{figure}[H]
 \centering
-{\includegraphics[scale=0.65]{knn.png}}
+{\includegraphics[scale=0.75]{knn.png}}
 \caption{Nearest Neighbours for different values of k}
 \end{figure}
 
@@ -39,6 +39,8 @@ We would briefly like to discuss the classification algorithms we have used in o
 
 \noindent Disadvantages of this method is its computation time. Lazy learning requires that most of k-NN's computation be done during testing, rather than during training. This can be an issue for large datasets. Large search problem to find nearest neighbours is another con. Storage of data and in the case of many dimensions, inputs can commonly be "close" to many data points. This reduces the effectiveness of k-NN, since the algorithm relies on a correlation between closeness and similarity.
 
+\newpage
+
 \section{Decision tree learning} \label{Decision tree learning}
 
 \noindent Decision tree learning uses a decision tree (as a predictive model) to go from observations about an item (represented in the branches) to conclusions about the item's target value (represented in the leaves). Tree models where the target variable can take a discrete set of values are called classification trees; in these tree structures, leaves represent class labels and branches represent conjunctions of features that lead to those class labels. To predict a response, follow the decisions in the tree from the root (beginning) node down to a leaf node. The leaf node contains the response.
@@ -46,16 +48,16 @@ We would briefly like to discuss the classification algorithms we have used in o
 
 \begin{figure}[H]
 \centering
-{\includegraphics[scale=0.65]{dt.jpg}}
+{\includegraphics[scale=0.75]{dt.jpg}}
 \caption{Decision tree diagram}
 \end{figure}
 
-\noindent MATLAB provides 3 types of decision trees depending on the maximum number of splits possible
+\noindent MATLAB provides 3 types of decision trees depending on the maximum number of splits possible.
 
 
 \begin{figure}[H]
 \centering
-{\includegraphics[scale=0.75]{table.png}}
+{\includegraphics[scale=0.85]{table.png}}
 \caption{Types of Decision Trees in MATLAB}
 \end{figure}
 
