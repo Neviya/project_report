@@ -8,19 +8,19 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Kernel trick representation\relax }}{16}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Nearest Neighbours for different values of k\relax }}{17}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Decision tree diagram\relax }}{19}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Types of Decision Trees in MATLAB\relax }}{20}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Decision tree diagram\relax }}{18}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Types of Decision Trees in MATLAB\relax }}{18}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Experimental Setup\relax }}{25}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces 25 joints offered by Kinect\relax }}{26}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces JRA between Shoulder Left and Elbow Left\relax }}{28}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Trace\relax }}{29}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Skeletal View\relax }}{29}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Static data in CSV format\relax }}{30}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Dynamic data in CSV format\relax }}{30}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces JRA between Shoulder Left and Elbow Left\relax }}{29}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Trace\relax }}{30}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Skeletal View\relax }}{30}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Static data in CSV format\relax }}{31}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Dynamic data in CSV format\relax }}{31}
 \contentsline {figure}{\numberline {5.8}{\ignorespaces Effect of the Moving Average Filter Pink represents the original data Blue displays the filtered output Notice the smooth peaks and troughs in the filtered output \relax }}{33}
 \contentsline {figure}{\numberline {5.9}{\ignorespaces Phases Of the Gait cycle\relax }}{34}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Detection of a complete gait cycle by tracking the distance between the left and right ankle joints. The Red line connects the 3 subsequent minima \relax }}{34}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Detection of a complete gait cycle by tracking the distance between the left and right ankle joints. The Red line connects the 3 subsequent minima \relax }}{35}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

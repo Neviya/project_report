@@ -9,16 +9,17 @@
 
 \begin{figure}[H]
 \centering
-{\includegraphics[scale=0.74]{ktr.png}}
+{\includegraphics[scale=0.79]{ktr.png}}
 \caption{Kernel trick representation}
 \end{figure}
 
 
 \subsection{Pros and Cons associated with SVM} \label{Pros and Cons associated with SVM}
 
-\noindent The advantages of SVM are it is effective in high dimensional spaces and in cases where number of dimensions is greater than the number of samples. It uses a subset of training points in the decision function (called support vectors), so it is also memory efficient. It is versatile means different Kernel functions can be specified for the decision function. Common kernels are provided, but it is also possible to specify custom kernels. 
+\noindent If we compare, there are quiet a few positives than the negatives of SVM like it is very effective in high dimensional spaces. Even where the number of dimensions is greater than the number of samples it yet has its effect. It uses a subset of training points in the decision function (called support vectors) that makes the memory more efficient. The algotithm is versatile where different Kernel functions can be specified for the decision function. Common kernels are
+provided, but it is also possible to specify custom kernels. 
 
-\noindent Despite this it doesn’t perform well when we have large data set because the required training time is higher. It also doesn’t perform very well, when the data set has more noise i.e. target classes are overlapping and SVM doesn’t directly provide probability estimates, these are calculated using an expensive five-fold cross-validation.
+\noindent There are very few negatives, some of them are it does not perform well when we have large data set because the required training time is higher. When the data set is noisy the performance is not good enough, that is the target classes are overlapping and lastly SVM does not directly provide probability estimates, these are calculated using an expensive five-fold cross-validation.
 
 
 \newpage
@@ -29,15 +30,15 @@
 
 \begin{figure}[H]
 \centering
-{\includegraphics[scale=0.75]{knn.png}}
+{\includegraphics[scale=0.60]{knn.png}}
 \caption{Nearest Neighbours for different values of k}
 \end{figure}
 
 
 \subsection{Pros and Cons associated with k-NN} \label{Pros and Cons associated with k-NN}
-\noindent The advantages of k-NN are that it is simple to implement. It can quickly respond to changes in input. k-NN employs lazy learning, which generalizes during testing, this allows it to change during real time use. It naturally handles multi-class cases and can do well in practice with enough representative data. 
+\noindent Here it is simpler to implement. k-NN employs lazy learning and generalizes during testing which makes it a real time algorithm. It also handles multi-class cases naturally and can do well in practice with enough representative data. 
 
-\noindent Disadvantages of this method is its computation time. Lazy learning requires that most of k-NN's computation be done during testing, rather than during training. This can be an issue for large datasets. Large search problem to find nearest neighbours is another con. Storage of data and in the case of many dimensions, inputs can commonly be "close" to many data points. This reduces the effectiveness of k-NN, since the algorithm relies on a correlation between closeness and similarity.
+\noindent On the other hand when the data sets are large, lazy learning requires that most of k-NN's computation be done during testing, rather than during training which increases the computational time. Searching for the nearest neighbour is a time consuming task. The set back over here is inputs can commonly be "close" to many data points. This reduces the effectiveness of k-NN, since the algorithm relies on a correlation between closeness and similarity.
 
 \newpage
 
@@ -48,7 +49,7 @@
 
 \begin{figure}[H]
 \centering
-{\includegraphics[scale=0.75]{dt.jpg}}
+{\includegraphics[scale=0.48]{dt.jpg}}
 \caption{Decision tree diagram}
 \end{figure}
 
@@ -57,14 +58,13 @@
 
 \begin{figure}[H]
 \centering
-{\includegraphics[scale=0.85]{table.png}}
+{\includegraphics[scale=0.87]{table.png}}
 \caption{Types of Decision Trees in MATLAB}
 \end{figure}
 
-
+\newpage
 \subsection{Pros and Cons associated with Decision tree} \label{Pros and Cons associated with Decision tree}
 
-The advantages are that they are very fast to build and test. Building algorithms that work on highly non-linear data. In some use cases, visualizing the tree might be important. This can't be done in complex algorithms addressing non-linear needs.
-Make minimal assumptions. Nonlinear relationships between parameters do not affect tree performance.
+\noindent They are very fast to build and test. Another strong behavior is that they work on highly non-linear data, easy to understand, visualise and require minimum assumption. Even the nonlinear relationships between parameters do not affect tree performance.
 
-The disadvantages are it is not stable, even a small change in input data can at times, cause large changes in the tree. Changing variables, excluding duplication information, or altering the sequence midway can lead to major changes and might possibly require redrawing the tree. Decision Trees do not work well if you have smooth boundaries.  i.e they work best when you have discontinuous piece wise constant model. If you truly have a linear target function decision trees are not the best. They do not work best if you have a lot of un-correlated variables and a tree with many levels and branches can lead to an over optimized result, or many false positives due to multiple comparison.
+\noindent Whereas the weekness here is even a small change in input data can at times, cause large changes in the tree. Changing variables, excluding duplication information, or altering the sequence midway can lead to major changes and might possibly require redrawing the tree. Decision Trees do not work well if you have smooth boundaries, that is they work best when you have discontinuous piece wise constant model. If you truly have a linear target function decision trees are not the best. They do not work best if you have a lot of un-correlated variables and a tree with many levels and branches can lead to an over optimized result, or many false positives due to multiple comparison.
