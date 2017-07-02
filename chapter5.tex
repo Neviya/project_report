@@ -171,12 +171,50 @@ The two figures below show how TRACE writes the static and dynamic data in CSV f
 
 \begin{figure}[h]
 \centering
-\includegraphics[scale=0.7]{dynamic.png}
+\includegraphics[scale=0.5]{dynamic.png}
 \caption{Dynamic data in CSV format}
 \end{figure}
 
 
+\section{Gait Database} \label{Gait Database}
 
+\noindent Since a standard gait dataset acquired with the Kinect sensor is not available, we have collected a set of gait samples. The gait database consisted of 8 participants (5 males and 3 females) who were asked to walk naturally in front of the Kinect, each participant was asked to walk 10 times giving us a total of 80 gait samples. Out of this, 8 gait samples of each participant were used in the training set giving us a total of 64 samples for training. Remaining 2 gait samples was used for testing, giving us 16 testing samples.
+
+Apart from that, we also collected a single gait sample from 12 other different participants. These samples were then added to training set to degrade it. This was done to prevent the classifiers from overgeneralizing the data and checking their performance in the presence of outliners. Hence the final training set consisted of 76 gait samples.
+
+
+\section{Overhead Processing} \label{Overhead Processing} 
+\noindent All the static feature data that was obtained for the 3 second interval was averaged out by calculating the mean for each feature.\\                                                                                                                                                                                                               Since we are interested in tracking the changes of the kinematic data, the same procedure cannot be used. Also Kinect having limited precision and frame rate is prone to noisy acquisitions, to smoothen this out we pass all the kinematic data through a moving average filter. Through trial and error we found $1/4$ to be the best mask for this data.\\
+The figure below demonstrates the smoothening effect of the moving average filter.
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.4]{filter.png}
+\caption{Effect of the Moving Average Filter Pink represents the original data Blue displays the filtered output Notice the smooth peaks and troughs in the filtered output
+}
+\end{figure}
+
+\section{Gait Cycle Detection} \label{Gait Cycle Detection} 
+
+\noindent Regular human walking is considered to be a cyclic motion, which repeats in a relatively stable frequency. Hence our first task is to extract one complete gait cycle, as it represents the complete gait signature. The figure below is a nice pictorial representation of a gait cycle.
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.2]{gaitoriginal.jpg}
+\caption{Phases Of the Gait cycle}
+\end{figure}
+
+\noindent In order to identify gait cycles, the distance between the Ankle Left and Ankle Right joints was tracked over time. A moving average filter was used to smoothen this distance. During walking, the distance between the two ankle joints will be at maximum when the right and the left leg are farthest apart and will be at minimum when the legs are in the rest (standing) position. Therefore, by detecting three subsequent minima, it is possible to find the occurrences of the two legs in the rest position, which corresponds to the beginning, middle, and ending points of a complete gait cycle, respectively. \\                                         The following figure explains this concept.
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.8]{wave.png}
+\caption{Detection of a complete gait cycle by tracking the distance between the left and right ankle joints.
+The Red line connects the 3 subsequent minima
+}
+\end{figure}
+
+\noindent The JRA data for this one gait cycle was extracted and considered. The rest of the kinematic features were averaged out for this period and the variances were calculated on the means of this cycle.
 
 
 

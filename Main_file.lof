@@ -18,6 +18,9 @@
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Skeletal View\relax }}{28}
 \contentsline {figure}{\numberline {5.6}{\ignorespaces Static data in CSV format\relax }}{29}
 \contentsline {figure}{\numberline {5.7}{\ignorespaces Dynamic data in CSV format\relax }}{29}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Effect of the Moving Average Filter Pink represents the original data Blue displays the filtered output Notice the smooth peaks and troughs in the filtered output \relax }}{31}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Phases Of the Gait cycle\relax }}{32}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Detection of a complete gait cycle by tracking the distance between the left and right ankle joints. The Red line connects the 3 subsequent minima \relax }}{32}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

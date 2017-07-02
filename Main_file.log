@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.25)  2 JUL 2017 13:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.25)  2 JUL 2017 14:52
 entering extended mode
 **./Main_file.tex
 (Main_file.tex
@@ -1193,18 +1193,49 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: dynamic.png Graphic file (type png)
  <use dynamic.png>
 Package pdftex.def Info: dynamic.png used on input line 174.
-(pdftex.def)             Requested size: 370.98346pt x 216.0557pt.
+(pdftex.def)             Requested size: 264.98933pt x 154.32617pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [28 <./trace.png> <./john.png>] [29 <./static.png> <./dynamic.png>]
+[28 <./trace.png> <./john.png>] [29 <./static.png> <./dynamic.png>]
+<filter.png, id=169, 3064.69969pt x 1610.26593pt>
+File: filter.png Graphic file (type png)
+ <use filter.png>
+Package pdftex.def Info: filter.png used on input line 192.
+(pdftex.def)             Requested size: 1225.85818pt x 644.09497pt.
+
+Overfull \hbox (756.3877pt too wide) in paragraph at lines 192--194
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<gaitoriginal.jpg, id=170, 1541.76pt x 725.71124pt>
+File: gaitoriginal.jpg Graphic file (type jpg)
+ <use gaitoriginal.jpg>
+Package pdftex.def Info: gaitoriginal.jpg used on input line 203.
+(pdftex.def)             Requested size: 308.34654pt x 145.13968pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<wave.png, id=171, 475.7775pt x 344.03531pt>
+File: wave.png Graphic file (type png)
+ <use wave.png>
+Package pdftex.def Info: wave.png used on input line 211.
+(pdftex.def)             Requested size: 380.6225pt x 275.22862pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [30] [31 <./filter.png>] [32 <./gaitoriginal.jpg> <./wave.png>]
 \openout2 = `chapter6.aux'.
 
-
-(chapter6.tex
+ (chapter6.tex
 Chapter 6.
-) [30
+) [33
 
 
 
@@ -1217,36 +1248,36 @@ Overfull \hbox (12.09259pt too wide) in paragraph at lines 5--6
 or+Doppler+Ultrasound 
  []
 
-[31
+[34
 
 
 
-]) [32]
+]) [35]
 \openout2 = `Appendix.aux'.
 
- (Appendix.tex [33
+ (Appendix.tex [36
 
 
 
 
 ]
 Appendix A.
-[34
+[37
 
-] [35]
+] [38]
 Appendix B.
-[36
+[39
 
-]) [37] 
+]) [40] 
 AED: lastpage setting LastPage
 (Main_file.aux (Abstract.aux) (chapter1.aux) (chapter2.aux) (chapter3.aux)
 (chapter4.aux) (chapter5.aux) (chapter6.aux) (bibliography.aux) (Appendix.aux))
  ) 
 Here is how much of TeX's memory you used:
- 14829 strings out of 493323
- 282610 string characters out of 3139069
- 434203 words of memory out of 3000000
- 17981 multiletter control sequences out of 15000+200000
+ 14847 strings out of 493323
+ 282895 string characters out of 3139069
+ 434237 words of memory out of 3000000
+ 17996 multiletter control sequences out of 15000+200000
  11539 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,13n,54p,1108b,351s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1259,9 +1290,9 @@ pe1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti
 10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Main_file.pdf (47 pages, 1878009 bytes).
+Output written on Main_file.pdf (50 pages, 2250240 bytes).
 PDF statistics:
- 228 PDF objects out of 1000 (max. 8388607)
+ 242 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 98 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 
