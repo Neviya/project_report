@@ -20,15 +20,20 @@
 \contentsline {section}{\numberline {5.1}Tools Used }{20}
 \contentsline {subsection}{\numberline {5.1.1}Microsoft Kinect v2 sensor}{20}
 \contentsline {subsection}{\numberline {5.1.2}Visual Studio 2015 Community Edition }{20}
-\contentsline {subsection}{\numberline {5.1.3}Notepad++ }{21}
-\contentsline {subsection}{\numberline {5.1.4}MATLAB R2015a }{21}
-\contentsline {section}{\numberline {5.2}Gait Features}{21}
+\contentsline {subsection}{\numberline {5.1.3}Vitruvius }{21}
+\contentsline {subsection}{\numberline {5.1.4}Notepad++ }{21}
+\contentsline {subsection}{\numberline {5.1.5}MATLAB R2015a }{22}
+\contentsline {section}{\numberline {5.2}Gait Features}{22}
 \contentsline {section}{\numberline {5.3}Experimental Set up }{23}
-\contentsline {chapter}{\numberline {6}Conclusion}{24}
-\contentsline {section}{\numberline {6.1}General Conclusion}{24}
-\contentsline {subsection}{\numberline {6.1.1}This is a sub section}{24}
-\contentsline {section}{\numberline {6.2}Challenges}{24}
-\contentsline {section}{\numberline {6.3}Future Work}{24}
-\contentsline {chapter}{Appendices}{27}
-\contentsline {chapter}{\numberline {A}Appendix}{28}
-\contentsline {chapter}{\numberline {B}Data Sheets}{30}
+\contentsline {section}{\numberline {5.4}Logic behind the measurement of static and kinematic features}{24}
+\contentsline {subsection}{\numberline {5.4.1}Measurement of length between joints}{24}
+\contentsline {section}{\numberline {5.5} Measurement of angles between joints}{26}
+\contentsline {section}{\numberline {5.6}Design of the App }{27}
+\contentsline {chapter}{\numberline {6}Conclusion}{30}
+\contentsline {section}{\numberline {6.1}General Conclusion}{30}
+\contentsline {subsection}{\numberline {6.1.1}This is a sub section}{30}
+\contentsline {section}{\numberline {6.2}Challenges}{30}
+\contentsline {section}{\numberline {6.3}Future Work}{30}
+\contentsline {chapter}{Appendices}{33}
+\contentsline {chapter}{\numberline {A}Appendix}{34}
+\contentsline {chapter}{\numberline {B}Data Sheets}{36}

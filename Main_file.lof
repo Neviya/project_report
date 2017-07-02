@@ -11,7 +11,13 @@
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Decision tree diagram\relax }}{18}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Types of Decision Trees in MATLAB\relax }}{18}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Experimental Setup\relax }}{23}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Experimental Setup\relax }}{24}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces 25 joints offered by Kinect\relax }}{25}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces JRA between Shoulder Left and Elbow Left\relax }}{27}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Trace\relax }}{28}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Skeletal View\relax }}{28}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Static data in CSV format\relax }}{29}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Dynamic data in CSV format\relax }}{29}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
