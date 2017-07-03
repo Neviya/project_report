@@ -21,6 +21,6 @@
 \contentsline {figure}{\numberline {5.8}{\ignorespaces Effect of the Moving Average Filter Pink represents the original data Blue displays the filtered output Notice the smooth peaks and troughs in the filtered output \relax }}{33}
 \contentsline {figure}{\numberline {5.9}{\ignorespaces Phases Of the Gait cycle\relax }}{34}
 \contentsline {figure}{\numberline {5.10}{\ignorespaces Detection of a complete gait cycle by tracking the distance between the left and right ankle joints. The Red line connects the 3 subsequent minima \relax }}{35}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces ANN Architecture\relax }}{37}
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Heat map of the 20x20 average matrix obtained for the average number of bins occupied for different JRA\relax }}{39}

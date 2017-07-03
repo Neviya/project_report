@@ -2,6 +2,7 @@
 \contentsline {section}{\numberline {1.1}Preamble}{1}
 \contentsline {section}{\numberline {1.2}Motivation}{2}
 \contentsline {section}{\numberline {1.3}Proposed Idea}{3}
+\contentsline {section}{\numberline {1.4}Problem Statement}{3}
 \contentsline {chapter}{\numberline {2}Literature Review}{4}
 \contentsline {section}{\numberline {2.1}Full Body Gait Analysis with Kinect}{4}
 \contentsline {section}{\numberline {2.2}Motion Analysis using Kinect sensor}{6}
@@ -33,11 +34,6 @@
 \contentsline {section}{\numberline {5.7}Gait Database}{32}
 \contentsline {section}{\numberline {5.8}Overhead Processing}{33}
 \contentsline {section}{\numberline {5.9}Gait Cycle Detection}{34}
-\contentsline {chapter}{\numberline {6}Conclusion}{36}
-\contentsline {section}{\numberline {6.1}General Conclusion}{36}
-\contentsline {subsection}{\numberline {6.1.1}This is a sub section}{36}
-\contentsline {section}{\numberline {6.2}Challenges}{36}
-\contentsline {section}{\numberline {6.3}Future Work}{36}
-\contentsline {chapter}{Appendices}{39}
-\contentsline {chapter}{\numberline {A}Appendix}{40}
-\contentsline {chapter}{\numberline {B}Data Sheets}{42}
+\contentsline {section}{\numberline {5.10}Observation and Results}{36}
+\contentsline {chapter}{\numberline {6}Conclusion}{38}
+\contentsline {section}{\numberline {6.1}Future Work}{39}

@@ -6,6 +6,7 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {5.1}{\ignorespaces The set of static features\relax }}{23}
 \contentsline {table}{\numberline {5.2}{\ignorespaces kinematic features involving distance between joints\relax }}{23}
+\contentsline {table}{\numberline {5.3}{\ignorespaces kinematic features involving distance between joints\relax }}{36}
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Different classifiers and their accuracy\relax }}{38}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Body Joints\relax }}{39}
