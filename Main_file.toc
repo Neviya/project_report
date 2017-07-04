@@ -1,39 +1,39 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Preamble}{1}
-\contentsline {section}{\numberline {1.2}Motivation}{2}
-\contentsline {section}{\numberline {1.3}Proposed Idea}{3}
-\contentsline {section}{\numberline {1.4}Problem Statement}{3}
-\contentsline {chapter}{\numberline {2}Literature Review}{4}
-\contentsline {section}{\numberline {2.1}Full Body Gait Analysis with Kinect}{4}
-\contentsline {section}{\numberline {2.2}Motion Analysis using Kinect sensor}{6}
-\contentsline {section}{\numberline {2.3}Gait Recognition with Kinect}{8}
-\contentsline {chapter}{\numberline {3}Introduction to Kinect Sensor}{10}
-\contentsline {section}{\numberline {3.1}Kinect v2 Sensor Specifications}{10}
-\contentsline {section}{\numberline {3.2}Skeleton Tracking}{13}
-\contentsline {section}{\numberline {3.3}Measuring Distances Using Kinect }{14}
-\contentsline {chapter}{\numberline {4}Study of Classification Algorithms}{15}
-\contentsline {section}{\numberline {4.1} Support Vector Machine (SVM)}{15}
-\contentsline {subsection}{\numberline {4.1.1}Pros and Cons associated with SVM}{16}
-\contentsline {section}{\numberline {4.2}k-Nearest Neighbors algorithm (k-NN)}{17}
-\contentsline {subsection}{\numberline {4.2.1}Pros and Cons associated with k-NN}{17}
-\contentsline {section}{\numberline {4.3}Decision tree learning}{18}
-\contentsline {subsection}{\numberline {4.3.1}Pros and Cons associated with Decision tree}{19}
-\contentsline {chapter}{\numberline {5}Implementation and Methodology}{20}
-\contentsline {section}{\numberline {5.1}Tools Used }{20}
-\contentsline {subsection}{\numberline {5.1.1}Microsoft Kinect v2 sensor}{20}
-\contentsline {subsection}{\numberline {5.1.2}Visual Studio 2015 Community Edition }{20}
-\contentsline {subsection}{\numberline {5.1.3}Vitruvius }{21}
-\contentsline {subsection}{\numberline {5.1.4}Notepad++ }{21}
-\contentsline {subsection}{\numberline {5.1.5}MATLAB R2015a }{22}
-\contentsline {section}{\numberline {5.2}Gait Features}{23}
-\contentsline {section}{\numberline {5.3}Experimental Set up }{25}
-\contentsline {section}{\numberline {5.4}Logic behind the measurement of static and kinematic features}{26}
-\contentsline {subsection}{\numberline {5.4.1}Measurement of length between joints}{26}
-\contentsline {section}{\numberline {5.5} Measurement of angles between joints}{28}
-\contentsline {section}{\numberline {5.6}Design of the App }{30}
-\contentsline {section}{\numberline {5.7}Gait Database}{32}
-\contentsline {section}{\numberline {5.8}Overhead Processing}{33}
-\contentsline {section}{\numberline {5.9}Gait Cycle Detection}{34}
-\contentsline {section}{\numberline {5.10}Observation and Results}{36}
-\contentsline {chapter}{\numberline {6}Conclusion}{38}
-\contentsline {section}{\numberline {6.1}Future Work}{39}
+\contentsline {section}{\numberline {1.2}Motivation}{3}
+\contentsline {section}{\numberline {1.3}Proposed Idea}{4}
+\contentsline {section}{\numberline {1.4}Problem Statement}{4}
+\contentsline {chapter}{\numberline {2}Literature Review}{5}
+\contentsline {section}{\numberline {2.1}Full Body Gait Analysis with Kinect}{5}
+\contentsline {section}{\numberline {2.2}Motion Analysis using Kinect sensor}{7}
+\contentsline {section}{\numberline {2.3}Gait Recognition with Kinect}{9}
+\contentsline {chapter}{\numberline {3}Introduction to Kinect Sensor}{11}
+\contentsline {section}{\numberline {3.1}Kinect v2 Sensor Specifications}{11}
+\contentsline {section}{\numberline {3.2}Skeleton Tracking}{14}
+\contentsline {section}{\numberline {3.3}Measuring Distances Using Kinect }{15}
+\contentsline {chapter}{\numberline {4}Study of Classification Algorithms}{16}
+\contentsline {section}{\numberline {4.1} Support Vector Machine (SVM)}{16}
+\contentsline {subsection}{\numberline {4.1.1}Pros and Cons associated with SVM}{17}
+\contentsline {section}{\numberline {4.2}k-Nearest Neighbors algorithm (k-NN)}{18}
+\contentsline {subsection}{\numberline {4.2.1}Pros and Cons associated with k-NN}{18}
+\contentsline {section}{\numberline {4.3}Decision tree learning}{19}
+\contentsline {subsection}{\numberline {4.3.1}Pros and Cons associated with Decision tree}{20}
+\contentsline {chapter}{\numberline {5}Implementation and Methodology}{21}
+\contentsline {section}{\numberline {5.1}Tools Used }{21}
+\contentsline {subsection}{\numberline {5.1.1}Microsoft Kinect v2 sensor}{21}
+\contentsline {subsection}{\numberline {5.1.2}Visual Studio 2015 Community Edition }{21}
+\contentsline {subsection}{\numberline {5.1.3}Vitruvius }{22}
+\contentsline {subsection}{\numberline {5.1.4}Notepad++ }{22}
+\contentsline {subsection}{\numberline {5.1.5}MATLAB R2015a }{23}
+\contentsline {section}{\numberline {5.2}Gait Features}{24}
+\contentsline {section}{\numberline {5.3}Experimental Set up }{26}
+\contentsline {section}{\numberline {5.4}Logic behind the measurement of static and kinematic features}{27}
+\contentsline {subsection}{\numberline {5.4.1}Measurement of length between joints}{27}
+\contentsline {section}{\numberline {5.5} Measurement of angles between joints}{29}
+\contentsline {section}{\numberline {5.6}Design of the App }{31}
+\contentsline {section}{\numberline {5.7}Gait Database}{33}
+\contentsline {section}{\numberline {5.8}Overhead Processing}{34}
+\contentsline {section}{\numberline {5.9}Gait Cycle Detection}{35}
+\contentsline {section}{\numberline {5.10}Observation and Results}{37}
+\contentsline {chapter}{\numberline {6}Conclusion}{39}
+\contentsline {section}{\numberline {6.1}Future Work}{40}
