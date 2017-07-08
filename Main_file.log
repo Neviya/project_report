@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.25)  5 JUL 2017 01:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.25)  8 JUL 2017 14:24
 entering extended mode
 **./Main_file.tex
 (Main_file.tex
@@ -823,7 +823,7 @@ Now handling font encoding U ...
    defining Unicode char U+2423 (decimal 9251)
 )) (Main_file.aux
 (Abstract.aux) (chapter1.aux) (chapter2.aux) (chapter3.aux) (chapter4.aux)
-(chapter5.aux) (chapter6.aux) (bibliography.aux))
+(chapter5.aux) (results.aux) (chapter6.aux) (bibliography.aux))
 \openout1 = `Main_file.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -964,20 +964,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--44
 
  []
 
-[2]) [3] (acknowledgement.tex) [1] (Main_file.toc [2
+[2] [3]) (acknowledgement.tex) [1
+
+] (Main_file.toc [2
 
 ])
 \tf@toc=\write4
 \openout4 = `Main_file.toc'.
 
- [3] (Main_file.lof)
+ [3] (Main_file.lof
+[4
+
+])
 \tf@lof=\write5
 \openout5 = `Main_file.lof'.
 
-
-[4
-
-] [5] (Main_file.lot)
+ [5] (Main_file.lot)
 \tf@lot=\write6
 \openout6 = `Main_file.lot'.
 
@@ -1003,43 +1005,43 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 
-] [2] [3] <Figprocessflow.png, id=55, 764.8575pt x 427.5975pt>
+] [2] <Figprocessflow.png, id=52, 764.8575pt x 427.5975pt>
 File: Figprocessflow.png Graphic file (type png)
 
 <use Figprocessflow.png>
 Package pdftex.def Info: Figprocessflow.png used on input line 21.
 (pdftex.def)             Requested size: 420.67291pt x 235.17935pt.
-) [4 <./Figprocessflow.png>]
+) [3 <./Figprocessflow.png>]
 \openout2 = `chapter2.aux'.
 
  (chapter2.tex
 Chapter 2.
-[5
+[4
 
 
 
-] [6] [7] [8]) [9] [10]
+] [5] [6] [7]) [8] [9]
 \openout2 = `chapter3.aux'.
 
  (chapter3.tex
 Chapter 3.
-<figkinect.png, id=81, 545.03625pt x 279.29344pt>
+<figkinect.png, id=78, 545.03625pt x 279.29344pt>
 File: figkinect.png Graphic file (type png)
  <use figkinect.png>
 Package pdftex.def Info: figkinect.png used on input line 9.
 (pdftex.def)             Requested size: 436.0296pt x 223.43504pt.
- [11
+ [10
 
 
 
- <./figkinect.png>] [12] [13] <figbodjoints.png, id=92, 395.22656pt x 403.5075p
+ <./figkinect.png>] [11] [12] <figbodjoints.png, id=89, 395.22656pt x 403.5075p
 t>
 File: figbodjoints.png Graphic file (type png)
 
 <use figbodjoints.png>
 Package pdftex.def Info: figbodjoints.png used on input line 58.
 (pdftex.def)             Requested size: 335.94415pt x 342.98299pt.
- [14
+ [13
 
  <./figbodjoints.png>]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 67.
@@ -1050,38 +1052,38 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 67.
 
-<figsensor.png, id=98, 414.04688pt x 249.93375pt>
+<figsensor.png, id=94, 414.04688pt x 249.93375pt>
 File: figsensor.png Graphic file (type png)
  <use figsensor.png>
 Package pdftex.def Info: figsensor.png used on input line 76.
 (pdftex.def)             Requested size: 310.53438pt x 187.44984pt.
-) [15 <./figsensor.png>]
+) [14 <./figsensor.png>]
 \openout2 = `chapter4.aux'.
 
  (chapter4.tex
 Chapter 4.
-<ktr.png, id=104, 453.19313pt x 253.69781pt>
+<ktr.png, id=101, 453.19313pt x 253.69781pt>
 File: ktr.png Graphic file (type png)
  <use ktr.png>
 Package pdftex.def Info: ktr.png used on input line 12.
 (pdftex.def)             Requested size: 358.01865pt x 200.41907pt.
- [16
+ [15
 
 
 
-] [17 <./ktr.png>] <knn.png, id=111, 385.44pt x 289.08pt>
+] [16 <./ktr.png>] <knn.png, id=108, 385.44pt x 289.08pt>
 File: knn.png Graphic file (type png)
  <use knn.png>
 Package pdftex.def Info: knn.png used on input line 33.
 (pdftex.def)             Requested size: 231.26578pt x 173.44933pt.
- [18 <./knn.png>]
-<dt.jpg, id=115, 480.29437pt x 360.59718pt>
+ [17 <./knn.png>]
+<dt.jpg, id=112, 480.29437pt x 360.59718pt>
 File: dt.jpg Graphic file (type jpg)
  <use dt.jpg>
 Package pdftex.def Info: dt.jpg used on input line 52.
 (pdftex.def)             Requested size: 230.53867pt x 173.08467pt.
 
-<table.png, id=116, 590.205pt x 197.23688pt>
+<table.png, id=113, 590.205pt x 197.23688pt>
 File: table.png Graphic file (type png)
  <use table.png>
 Package pdftex.def Info: table.png used on input line 61.
@@ -1091,174 +1093,189 @@ Overfull \hbox (2.69415pt too wide) in paragraph at lines 61--62
  [][] 
  []
 
-[19 <./dt.jpg> <./table.png>]) [20]
+[18 <./dt.jpg> <./table.png>] [19] <ANN.jpg, id=121, 144.54pt x 80.9424pt>
+File: ANN.jpg Graphic file (type jpg)
+
+<use ANN.jpg>
+Package pdftex.def Info: ANN.jpg used on input line 80.
+(pdftex.def)             Requested size: 390.25655pt x 218.54369pt.
+ [20 <./ANN.jpg>] <Annfw.png, id=126, 755.07094pt x 565.36218pt>
+File: Annfw.png Graphic file (type png)
+
+<use Annfw.png>
+Package pdftex.def Info: Annfw.png used on input line 89.
+(pdftex.def)             Requested size: 377.53455pt x 282.68039pt.
+) [21 <./Annfw.png>]
 \openout2 = `chapter5.aux'.
 
  (chapter5.tex
 Chapter 5.
-[21
+[22
 
 
 
-] [22] [23] [24] [25] <exp.png, id=140, 379.4175pt x 277.035pt>
+] [23] [24] [25] [26] <exp.png, id=146, 758.835pt x 554.07pt>
 File: exp.png Graphic file (type png)
+ <use exp.png>
+Package pdftex.def Info: exp.png used on input line 80.
+(pdftex.def)             Requested size: 417.36055pt x 304.73944pt.
 
-<use exp.png>
-Package pdftex.def Info: exp.png used on input line 86.
-(pdftex.def)             Requested size: 303.53441pt x 221.6283pt.
- [26 <./exp.png>]
-<Figbodjoints.png, id=146, 395.22656pt x 403.5075pt>
+[27 <./exp.png>] <Figbodjoints.png, id=151, 395.22656pt x 403.5075pt>
 File: Figbodjoints.png Graphic file (type png)
- <use Figbodjoints.png>
-Package pdftex.def Info: Figbodjoints.png used on input line 105.
+
+<use Figbodjoints.png>
+Package pdftex.def Info: Figbodjoints.png used on input line 100.
 (pdftex.def)             Requested size: 335.94415pt x 342.98299pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--111
+Underfull \hbox (badness 10000) in paragraph at lines 97--106
 
  []
 
-[27 <./Figbodjoints.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 112--120
+[28 <./Figbodjoints.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 107--115
 
  []
 
-[28]
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
-<angle.png, id=157, 590.95781pt x 560.0925pt>
+<angle.png, id=162, 590.95781pt x 560.0925pt>
 File: angle.png Graphic file (type png)
  <use angle.png>
-Package pdftex.def Info: angle.png used on input line 143.
-(pdftex.def)             Requested size: 295.47818pt x 280.04556pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[29] [30 <./angle.png>] <trace.png, id=167, 446.41782pt x 261.22594pt>
+Package pdftex.def Info: angle.png used on input line 139.
+(pdftex.def)             Requested size: 147.73909pt x 140.02278pt.
+ [30 <./angle.png>] <trace.png, id=169, 446.41782pt x 261.22594pt>
 File: trace.png Graphic file (type png)
-
-<use trace.png>
-Package pdftex.def Info: trace.png used on input line 155.
+ <use trace.png>
+Package pdftex.def Info: trace.png used on input line 151.
 (pdftex.def)             Requested size: 357.13474pt x 208.98102pt.
- <john.png, id=168, 464.4853pt x 269.50688pt>
+
+<john.png, id=170, 464.4853pt x 269.50688pt>
 File: john.png Graphic file (type png)
  <use john.png>
-Package pdftex.def Info: john.png used on input line 161.
+Package pdftex.def Info: john.png used on input line 157.
 (pdftex.def)             Requested size: 371.58875pt x 215.60579pt.
-
-[31
-
- <./trace.png> <./john.png>] <static.png, id=174, 522.45187pt x 301.125pt>
+ [31 <./trace.png> <./john.png>] <static.png, id=176, 522.45187pt x 301.125pt>
 File: static.png Graphic file (type png)
-
-<use static.png>
-Package pdftex.def Info: static.png used on input line 172.
+ <use static.png>
+Package pdftex.def Info: static.png used on input line 168.
 (pdftex.def)             Requested size: 313.47354pt x 180.67638pt.
- <dynamic.png, id=175, 529.98pt x 308.65312pt>
-File: dynamic.png Graphic file (type png)
 
-<use dynamic.png>
-Package pdftex.def Info: dynamic.png used on input line 178.
+<dynamic.png, id=177, 529.98pt x 308.65312pt>
+File: dynamic.png Graphic file (type png)
+ <use dynamic.png>
+Package pdftex.def Info: dynamic.png used on input line 174.
 (pdftex.def)             Requested size: 317.99043pt x 185.1933pt.
- [32 <./static.png> <./dynamic.png>] [33]
-<filter.png, id=185, 520.19344pt x 270.25969pt>
+ [32 <./static.png> <./dynamic.png>] [33] <filter.png, id=187, 520.19344pt x 27
+0.25969pt>
 File: filter.png Graphic file (type png)
- <use filter.png>
-Package pdftex.def Info: filter.png used on input line 196.
+
+<use filter.png>
+Package pdftex.def Info: filter.png used on input line 192.
 (pdftex.def)             Requested size: 364.13292pt x 189.18048pt.
  [34 <./filter.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
 
  []
 
-<gaitoriginal.jpg, id=189, 1541.76pt x 725.71124pt>
+<gaitoriginal.jpg, id=191, 1541.76pt x 725.71124pt>
 File: gaitoriginal.jpg Graphic file (type jpg)
  <use gaitoriginal.jpg>
-Package pdftex.def Info: gaitoriginal.jpg used on input line 207.
+Package pdftex.def Info: gaitoriginal.jpg used on input line 203.
 (pdftex.def)             Requested size: 462.53157pt x 217.71504pt.
 
-[35 <./gaitoriginal.jpg>] <wave.png, id=193, 475.7775pt x 344.03531pt>
-File: wave.png Graphic file (type png)
+[35 <./gaitoriginal.jpg>] <bd.png, id=195, 514.92375pt x 63.98906pt>
+File: bd.png Graphic file (type png)
 
-<use wave.png>
-Package pdftex.def Info: wave.png used on input line 217.
-(pdftex.def)             Requested size: 380.6225pt x 275.22862pt.
+<use bd.png>
+Package pdftex.def Info: bd.png used on input line 214.
+(pdftex.def)             Requested size: 437.68724pt x 54.39095pt.
+ <oneGaitCycle.png, id=196, 2135.72906pt x 1330.21968pt>
+File: oneGaitCycle.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--224
+<use oneGaitCycle.png>
+Package pdftex.def Info: oneGaitCycle.png used on input line 220.
+(pdftex.def)             Requested size: 320.34554pt x 199.52434pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
 
-[36
+[36 <./bd.png> <./oneGaitCycle.png>])
+\openout2 = `results.aux'.
 
- <./wave.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 256--257
+ (results.tex
+Chapter 6.
+[37
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
-[37] <anna.png, id=201, 460.21938pt x 123.96312pt>
+[38] <anna.png, id=209, 460.21938pt x 123.96312pt>
 File: anna.png Graphic file (type png)
  <use anna.png>
-Package pdftex.def Info: anna.png used on input line 271.
+Package pdftex.def Info: anna.png used on input line 50.
 (pdftex.def)             Requested size: 414.1936pt x 111.56577pt.
-) [38 <./anna.png>]
+) [39 <./anna.png>]
 \openout2 = `chapter6.aux'.
 
  (chapter6.tex
-Chapter 6.
-[39
+Chapter 7.
+[40
 
 
 
-] <heatMap.png, id=210, 421.575pt x 316.18124pt>
-File: heatMap.png Graphic file (type png)
- <use heatMap.png>
-Package pdftex.def Info: heatMap.png used on input line 27.
+] <coldmap.png, id=217, 421.575pt x 316.18124pt>
+File: coldmap.png Graphic file (type png)
+ <use coldmap.png>
+Package pdftex.def Info: coldmap.png used on input line 27.
 (pdftex.def)             Requested size: 337.26045pt x 252.94533pt.
-) [40 <./heatMap.png>] [41]
+ [41 <./coldmap.png>]) [42]
 \openout2 = `bibliography.aux'.
 
  (bibliography.tex
-Overfull \hbox (12.09259pt too wide) in paragraph at lines 5--6
-[]\OT1/cmr/m/n/12 https://wiki.engr.illinois.edu/display/BIOE414/History+of+Col
-or+Doppler+Ultrasound 
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+[]\OT1/cmr/m/n/12 https://www.newscientist.com/article/mg21528835-600-cameras-k
+now-you-by-your-
  []
 
-[42
+) [43
 
 
 
-]) [43] 
+] 
 AED: lastpage setting LastPage
 (Main_file.aux (Abstract.aux) (chapter1.aux) (chapter2.aux) (chapter3.aux)
-(chapter4.aux) (chapter5.aux) (chapter6.aux) (bibliography.aux))
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(chapter4.aux) (chapter5.aux) (results.aux) (chapter6.aux) (bibliography.aux)) 
+) 
 Here is how much of TeX's memory you used:
- 14845 strings out of 493323
- 281073 string characters out of 3139069
- 432802 words of memory out of 3000000
- 17999 multiletter control sequences out of 15000+200000
+ 14878 strings out of 493323
+ 281443 string characters out of 3139069
+ 433285 words of memory out of 3000000
+ 18022 multiletter control sequences out of 15000+200000
  11539 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,54p,1108b,351s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Main_file.pdf (54 pages, 2249849 bytes).
+ 55i,13n,54p,1108b,334s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Main_file.pdf (54 pages, 2931207 bytes).
 PDF statistics:
- 264 PDF objects out of 1000 (max. 8388607)
+ 268 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 118 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
 

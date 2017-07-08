@@ -1,12 +1,13 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Differences between Kinect v1 and v2\relax }}{13}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Differences between Kinect v1 and v2\relax }}{12}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces The set of static features\relax }}{24}
-\contentsline {table}{\numberline {5.2}{\ignorespaces kinematic features involving distance between joints\relax }}{24}
-\contentsline {table}{\numberline {5.3}{\ignorespaces kinematic features involving distance between joints\relax }}{37}
+\contentsline {table}{\numberline {5.1}{\ignorespaces The set of static features\relax }}{25}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Kinematic features involving distance between joints\relax }}{25}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Different classifiers and their accuracy\relax }}{39}
-\contentsline {table}{\numberline {6.2}{\ignorespaces Body Joints\relax }}{40}
+\contentsline {table}{\numberline {6.1}{\ignorespaces All the extracted features\relax }}{37}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces Different classifiers and their accuracy\relax }}{40}
+\contentsline {table}{\numberline {7.2}{\ignorespaces Body Joints\relax }}{41}

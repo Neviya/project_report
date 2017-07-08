@@ -68,3 +68,30 @@ provided, but it is also possible to specify custom kernels.
 \noindent They are very fast to build and test. Another strong behavior is that they work on highly non-linear data, easy to understand, visualise and require minimum assumption. Even the nonlinear relationships between parameters do not affect tree performance.
 
 \noindent Whereas the weekness here is, even a small change in input data can at times, cause large changes in the tree. Changing variables, excluding duplication information, or altering the sequence midway can lead to major change and might possibly require redrawing the tree. Decision Trees do not work well if you have smooth boundaries, that is they work best when you have discontinuous piece wise constant model. If you truly have a linear target function decision trees are not the best. They do not work best if you have a lot of un-correlated variables and a tree with many levels and branches can lead to an over optimized result, or many false positives due to multiple comparison.
+
+\newpage
+
+\section{Artificial Neural Networks (ANN)} \label{Artificial Neural Networks (ANN)}
+
+\noindent Artificial neural networks (ANNs) are computing systems inspired by the biological neural networks that constitute brains. ANN is based on a collection of connected units called artificial neurons (analogous to axons in a biological brain). Each connection (synapse) between neurons can transmit a signal to another neuron. The receiving (postsynaptic) neuron can process the signal(s) and then signal downstream neurons connected to it. Neurons may have state, generally represented by real numbers, typically between 0 and 1. Neurons and synapses may also have a weight that varies as learning proceeds, which can increase or decrease the strength of the signal that it sends downstream. Further, they may have a threshold such that only if the aggregate signal is below (or above) that level is the downstream signal sent.
+
+\begin{figure}[h]
+\centering
+{\includegraphics[scale=2.7]{ANN.jpg}}
+\caption{A neural network model}
+\end{figure}
+\newpage
+\noindent Following is the framework in which artificial neural networks (ANN) work:
+
+
+\begin{figure}[H]
+\centering
+{\includegraphics[scale=0.5]{Annfw.png}}
+\caption{ANN framework}
+\end{figure}
+
+\subsection{Pros and Cons associated with ANN} \label{Pros and Cons associated with ANN }
+
+\noindent Neural Networks are powerful and can be used to model complex functions, regardless of its linearity. They have the ability to learn organically. This means an artificial neural network’s outputs are not limited entirely by inputs and results given to them initially by an expert system. Artificial neural networks have the ability to generalize their inputs. This ability is valuable for robotics and pattern recognition systems. ANNs algorithms can easily be implemented in parallel architectures (i.e. in multicore processors or systems with GPUs).
+
+\noindent Despite these advantages, Neural Networks are too much of a black box. It is hard to determine how they are solving a problem, because they appear opaque. They are also  difficult to troubleshoot when they don't work as you expect. ALso they require a large data set due to which, training time is usually significant. There are alternatives that are simpler, faster, easier to train, and provide better performance (svm, decision trees, regression).
